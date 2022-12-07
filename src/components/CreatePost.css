@@ -1,0 +1,57 @@
+.createPostPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.postContainer{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 500px;
+    gap:10px;
+    padding: 0px 40px;
+    -moz-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.8);
+    -ms-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.8);
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.8);
+}
+
+.postContainer h1{
+    margin: 0;
+
+}
+
+.postContainer input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    padding: 0px 4px;
+}
+
+.postContainer textarea {
+    width: 100%;
+    height: 120px;
+    outline: none;
+    padding: 7px;
+}
+
+.postButton{
+    padding: 10px 0;
+    background-color: rgb(85, 85, 163);
+    border: none;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.8);
+    color: wheat;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3;
+}
+
+.postButton:hover{
+    transform: translateY(5px);
+    box-shadow: none;
+}
